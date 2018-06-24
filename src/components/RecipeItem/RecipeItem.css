@@ -1,0 +1,112 @@
+.ItemContainer {
+  /* Positioning */
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 5px;
+
+  /* Sizing */
+  height: 45px;
+  width: 85%;
+
+  /* Animations */
+  animation: opacity 1.5s ease-in;
+}
+
+.RecipeTitle {
+  /* Positioning */
+  margin: 0;
+  margin-left: 10px;
+
+  /* Interactions */
+  user-select: none;
+}
+
+@keyframes opacity {
+  0%   { opacity: 0   }
+  25%  { opacity: .25 }
+  50%  { opacity: .5  }
+  75%  { opacity: .75 }
+  100% { opacity:  1  }
+}
+
+#Dark {
+  /* Background Styling */
+  background-color: rgba(115, 115, 115, .7);
+
+  /* Animations */
+  transition: all 300ms;
+  cursor: pointer;
+
+  /* Border Styling*/
+  box-shadow: 0px 0px 0px 1px rgba(0,0,0, 0.5);
+}
+
+#Dark:hover {
+  /* Background Styling */
+  background-color: rgba(115, 115, 115, 1);
+}
+
+#Dark:active {
+  /* Border Styling */
+  box-shadow: none;
+}
+
+
+#Light {
+  /* Background Styling */
+  background-color: rgba(205, 205, 205, .7);
+
+  /* Animations */
+  transition: all 300ms;
+  cursor: pointer;
+
+  /* Border Styling */
+  box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.5);
+}
+
+#Light:hover {
+  /* Background Styling */
+  background-color: rgba(205, 205, 205, 1);
+}
+
+#Light:active {
+  /* Border Styling */
+  box-shadow: none;
+}
+
+.Image {
+  /* Sizing */
+  width: 150px;
+  height: 150px;
+
+  /* Border */
+
+  box-shadow: 0px 0px 1px 0px rgba(0,0,0, 0.5);
+}
+
+.Title {
+  /*Font Styling*/
+  text-align: center;
+  text-shadow: 1px 1px rgba(0,0,0, 0.5);
+}
+
+.Container {
+  /* Positioning */
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.IngredientListContainer {
+  /* Positioning */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start
+}
+
+
+
