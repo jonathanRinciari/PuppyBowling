@@ -41,7 +41,7 @@ class App extends Component {
           value: ''
         }
       })  
-    }, 300);
+    }, 400);
     
     setTimeout(() => {
       this.setState({
